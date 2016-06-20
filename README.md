@@ -1,2 +1,2 @@
-# coursera-test
-Coursera test repository
+# coursera-webdev
+Coursera webdev repository
