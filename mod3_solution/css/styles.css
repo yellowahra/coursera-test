@@ -1,0 +1,142 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: black;
+}
+
+.navbar-default, .navbar-header {
+  background-color: lightgray;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: black;
+  font-weight: bold;
+  font-size: 2.20em;
+}
+
+.navbar-default .navbar-toggle.collapsed {
+  border-color: black;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+  background-color: black;
+  height: 4px;
+  width: 27px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ddd;
+  height: 4px;
+  width: 27px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: lightgray;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: black;
+  border-width: 2px;
+  padding: 0;
+}
+
+.navbar-toggle {
+  padding: 5px 4px;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
+.navbar {
+  border-width: 0;
+  border-radius: 0;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+section > div {
+  border: 0px solid black;
+  background-color: lightgray;
+  margin-bottom: 10px;
+  padding: 4px 10px 10px 10px;
+}
+
+.title {
+  font-size: 1.50em;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.navbar-default .navbar-nav>li {
+  border-bottom: 2px solid black;
+}
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
+
+.nav>li>a {
+  text-align: center;
+}
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: 0;
+}
+
+.h3, h3 {
+  font-size: 2em;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse.collapse.in, .navbar-collapse.collapsing {
+    background-color: white;
+  }
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  section > div {
+    width: 90%;
+    margin: 0 auto 10px auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hidden-4k {
+    display: none !important;
+  }
+}
